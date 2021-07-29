@@ -1,235 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honda CBR</title>
     <!-- bootstrap stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/3feb3711ae.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3fe55f6e62.js" crossorigin="anonymous"></script>
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <!-- Header start -->
-    <header>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row p-5 d-flex align-items-center" style="background-color: #264653;">
-                        <div class="col-lg-6 col-sm-12 text-light">
-                            <p>Computer-controlled digital transistorized with electronic advance</p>
-                            <h1>Honda CBR 300R</h1>
-                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                            <button type="button" class="btn btn-colour text-light" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Purchase
-                            </button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Purchase Details</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Thank you for purchase products and also for being with us.
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
+<!-- Header start -->
+<header>
+    <section class="container-flued">
+            <div class="row p-5 bg-gradient d-flex  align-items-center" style="background-color: #264653;">
+                <div class="col-lg-6 text-light p-5">
+                    <p>Got a soft spot for sportbike design and Grand Prix stylings</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p>the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads. The single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-colour border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content text-dark">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            You want to Purchase Honda CBR 300R. 
+                            <br>
+                            Please recheck your order.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+                            <button type="button" class="btn btn-primary">Confirm</button>
                             </div>
                         </div>
-                        <div class="col-lg-6 p-2">
-                            <img src="images/header-bike.png" class="d-block w-100" alt="..." width="552px">
                         </div>
                     </div>
-
+                </div>
+                <div class="col-lg-6 col-sm-12 p-2 motor-img">
+                    <img src="images/header-bike.png" class="d-block w-100" alt="..." width="100%">
+                </div>
+            </div>
+    </section>
+</header>
+ <!-- Header End -->
+ <main>
+    <!-- Featured bikes start -->
+    <section>
+        <div class="d-flex justify-content-center m-5">
+            <div>
+                <h1 class="fw-bold">Fetured Bikes 2021</h1>
+                <p class="d-flex justify-content-center text fw-bold">Best bike collection</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img style="filter: grayscale(100%);" class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img style="filter: grayscale(100%);" class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Headerend -->
-    <main>
-        <!-- Featured bikes start -->
-        <section>
-            <div class="d-flex justify-content-center p-5">
-                <div>
-                    <h1>Fetured Bikes 2021</h1>
-                    <p class="d-flex justify-content-center text">Best bike collection</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
+    </section>
+    <!-- Featured bikes end -->
+    <!-- Clint rating -->
+    <section class="container">
+        <div class="d-flex justify-content-center p-5">
+            <h1 class="fw-bold">Happy <span class="text"> Clients says</span></h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 d-flex align-items-center p-4">
+                    <img class="img-fliud" src="images/user-1.png" class="card-img-top" alt="..." width="159px">
+                    <div class="card-body">
+                        <p class="card-text">Very smooth and does not vibrate on top speeds also at130km per hour
+                            and the. Very stable and control is very good . A perfect sports bike.</p>
                     </div>
-                    <div class="col-lg-4">
-                        <img class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
+                    <div class="p-2">
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="far fa-star text"></i>
                     </div>
-                    <div class="col-lg-4">
-                        <img class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
+                    <div>
+                        <a href="#" class="text-decoration-none">Mayank Tripathi</a>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- Featured bikes end -->
-
-        <!-- Clint rating -->
-        <section class="container">
-            <div class="d-flex justify-content-center p-5">
-                <h1>Happy <span class="text"> Clients says</span></h1>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 d-flex align-items-center p-4">
-                        <img class="img-fliud" src="images/user-1.png" class="card-img-top" alt="..." width="159px">
-                        <div class="card-body">
-                            <p class="card-text">Very smooth and does not vibrate on top speeds also at130km per hour
-                                and the. Very stable and control is very good . A perfect sports bike.</p>
-                        </div>
-                        <div class="p-2">
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="far fa-star text"></i>
-                        </div>
-                        <div>
-                            <a href="#" class="text-decoration-none">Mayank Tripathi</a>
-                        </div>
-                        <div>
-                            <h6 class="p-3">Banker</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 d-flex align-items-center p-4">
-                        <img class="img-fluid" src="images/user-2.png" class="card-img-top" alt="..." width="159px">
-                        <div class="card-body">
-                            <p class="card-text">Very refined engine great looks and good sporty feel while riding. Very
-                                good and comfortable on highways and everytime you enjoy while riding it.</p>
-                        </div>
-                        <div class="p-2">
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="far fa-star text"></i>
-                        </div>
-                        <div>
-                            <a href="#" class="text-decoration-none">Soniya Miles</a>
-                        </div>
-                        <div>
-                            <h6 class="p-3">Teacher</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 d-flex align-items-center p-4">
-                        <img class="img-fluid" src="images/user-03.png" class="card-img-top" alt="..." width="159px">
-                        <div class="card-body">
-                            <p class="card-text">The Honda CBR150R looks fundamentally the same as its senior kin, the
-                                CBR250R. The styling is very engaging and the motorcycle looks gorgeous for a 150cc
-                                machine.</p>
-                        </div>
-                        <div class="p-2">
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="fas fa-star text"></i>
-                            <i class="far fa-star text"></i>
-                        </div>
-                        <div>
-                            <a href="#" class="text-decoration-none">Rogina Mories</a>
-                        </div>
-                        <div>
-                            <h6 class="p-3">Businessman</h6>
-                        </div>
+                    <div>
+                        <h6 class="p-3">Banker</h6>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- FAQ section -->
-        <section class="container">
-            <div class="d-flex justify-content-center p-5">
-                <h1>Frequently Asked<span class="text"> Questions</span></h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="images/faq.png" alt="" width="431px" height="421px">
-                </div>
-                <div class="col-lg-6 p-5">
-                    <div class="border p-3">
-                        <div class="d-flex justify-content-between">
-                            <h6>What are the most important things I should
-                                know about riding a bike?</h6>
-                            <a href="#demo" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
-                        </div>
-                        <div id="demo" class="collapse">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
-                                laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
-                                you be
-                                a more focused and legally compliant bike rider. </p>
-                        </div>
+            <div class="col">
+                <div class="card h-100 d-flex align-items-center p-4">
+                    <img class="img-fluid" src="images/user-2.png" class="card-img-top" alt="..." width="159px">
+                    <div class="card-body">
+                        <p class="card-text">Very refined engine great looks and good sporty feel while riding. Very
+                            good and comfortable on highways and everytime you enjoy while riding it.</p>
                     </div>
-                    <div class="border p-3">
-                        <div class="d-flex justify-content-between">
-                            <h6>How can I tell if my helmet is old and I need a
-                                new one?</h6>
-                            <a href="#demo1" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
-                        </div>
-                        <div id="demo1" class="collapse">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
-                                laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
-                                you be
-                                a more focused and legally compliant bike rider. </p>
-                        </div>
+                    <div class="p-2">
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="far fa-star text"></i>
                     </div>
-                    <div class="border p-3">
-                        <div class="d-flex justify-content-between">
-                            <h6>My bike has been in storage is it safe to ride?</h6>
-                            <a href="#demo2" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
-                        </div>
-                        <div id="demo2" class="collapse">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
-                                laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
-                                you be
-                                a more focused and legally compliant bike rider. </p>
-                        </div>
+                    <div>
+                        <a href="#" class="text-decoration-none">Soniya Miles</a>
                     </div>
-                    <div class="border p-3">
-                        <div class="d-flex justify-content-between">
-                            <h6>What rules should I follow when riding my bike?</h6>
-                            <a href="#demo3" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
-                        </div>
-                        <div id="demo3" class="collapse">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
-                                laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
-                                you be
-                                a more focused and legally compliant bike rider. </p>
-                        </div>
+                    <div>
+                        <h6 class="p-3">Teacher</h6>
                     </div>
                 </div>
             </div>
-        </section>
-
-    </main>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+            <div class="col">
+                <div class="card h-100 d-flex align-items-center p-4">
+                    <img class="img-fluid" src="images/user-3.png" class="card-img-top" alt="..." width="159px">
+                    <div class="card-body">
+                        <p class="card-text">The Honda CBR150R looks fundamentally the same as its senior kin, the
+                            CBR250R. The styling is very engaging and the motorcycle looks gorgeous for a 150cc
+                            machine.</p>
+                    </div>
+                    <div class="p-2">
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="fas fa-star text"></i>
+                        <i class="far fa-star text"></i>
+                    </div>
+                    <div>
+                        <a href="#" class="text-decoration-none">Rogina Mories</a>
+                    </div>
+                    <div>
+                        <h6 class="p-3">Businessman</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ section -->
+    <section class="container">
+        <div class="d-flex justify-content-center p-5">
+            <h1>Frequently Asked<span class="text"> Questions</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="images/faq.png" alt="" width="431px" height="421px">
+            </div>
+            <div class="col-lg-6 p-5">
+                <div class="border p-3">
+                    <div class="d-flex justify-content-between">
+                        <h6>What are the most important things I should
+                            know about riding a bike?</h6>
+                        <a href="#demo" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
+                    </div>
+                    <div id="demo" class="collapse">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                            laws.
+                            Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                            you be
+                            a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+                <div class="border p-3">
+                    <div class="d-flex justify-content-between">
+                        <h6>How can I tell if my helmet is old and I need a
+                            new one?</h6>
+                        <a href="#demo1" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
+                    </div>
+                    <div id="demo1" class="collapse">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                            laws.
+                            Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                            you be
+                            a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+                <div class="border p-3">
+                    <div class="d-flex justify-content-between">
+                        <h6>My bike has been in storage is it safe to ride?</h6>
+                        <a href="#demo2" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
+                    </div>
+                    <div id="demo2" class="collapse">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                            laws.
+                            Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                            you be
+                            a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+                <div class="border p-3">
+                    <div class="d-flex justify-content-between">
+                        <h6>What rules should I follow when riding my bike?</h6>
+                        <a href="#demo3" data-bs-toggle="collapse"><i class="fas fa-angle-down ms-3"></i></a>
+                    </div>
+                    <div id="demo3" class="collapse">
+                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                            laws.
+                            Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                            you be
+                            a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+ <!-- JavaScript Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
 </html>
